@@ -1,0 +1,6 @@
+defaultProject/
+sample*
+template/
+presentation/build/*
+!presentation/build/presentation.pdf
+.directory

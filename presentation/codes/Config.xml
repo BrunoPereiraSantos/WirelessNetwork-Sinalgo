@@ -1,0 +1,22 @@
+<Document>
+	<Framework>
+		...
+	</Framework>
+<Custom>
+	<QUDG rMin="30" rMax="50" ProbabilityType="constant" connectionProbability="0.6"/>
+
+	<SINR alpha="2" beta="0.7" noise="0"/>
+
+	<RandomWayPoint>
+		<Speed distribution="Gaussian" mean="10" variance="20" />
+		<WaitingTime distribution="Poisson" lambda="10" />
+	</RandomWayPoint>
+
+	<RandomDirection>
+		<NodeSpeed distribution="Gaussian" mean="10" variance="20" />
+		<WaitingTime distribution="Poisson" lambda="10" />
+		<MoveTime distribution="Uniform" min="5" max="20" />
+	</RandomDirection>
+</Custom>
+</Document>
+
