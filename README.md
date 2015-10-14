@@ -1,6 +1,6 @@
 # WirelessNetwork-Sinalgo
 
-Code for Wireless Network class meeting at UFMG 2015.
+Code and slides presentation for Wireless Network class meeting at DCC/UFMG 2015.
 
 ## Author
 Bruno Pereira dos Santos
