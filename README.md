@@ -6,4 +6,4 @@ Code for Wireless Network class meeting at UFMG 2015.
 Bruno Pereira dos Santos
 
 ### Contact
-bruno.ps@live.com
+bruno.ps@dcc.ufmg.com
