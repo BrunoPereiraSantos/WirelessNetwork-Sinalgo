@@ -5,7 +5,7 @@
 		<!--  Simulation Area                                                      -->
 		<!--***********************************************************************-->
 		<!--Number of dimensions (2 for 2D, 3 for 3D)-->
-		<dimensions value="2" />
+		<dimensions value="3" />
 
 		<!--Length of the deployment field along the x-axis.-->
 		<dimX value="1000" />
@@ -247,6 +247,6 @@
 </RandomDirection>
 
 <QUDG rMin="30" rMax="50" ProbabilityType="constant" connectionProbability="0.6"/>
-							</Custom>
+								</Custom>
 </Document>
 

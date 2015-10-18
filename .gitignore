@@ -4,3 +4,6 @@ template/
 presentation/build/*
 !presentation/build/presentation.pdf
 .directory
+presentation2/build/*
+presentation2/videos/*
+
