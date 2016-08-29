@@ -21,8 +21,8 @@
 
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-\usepackage[brazil]{babel}   
-\usepackage[utf8]{inputenc}  
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage{caption}  %Allows including capitons on images
 %\usepackage{subcaption} %allow including multiples figures side to side
 \usepackage{ragged2e} %allows justify text in tables
@@ -183,7 +183,7 @@ Universidade Federal de Minas Gerais \\ % Your institution for the title page
 %------------------------------------------------
 
 \begin{frame}\frametitle{Exercício PingPong}
-	
+
 	\begin{block}{Conceitos}
 		\begin{enumerate}
 			\item Comportamento do nó
@@ -191,7 +191,7 @@ Universidade Federal de Minas Gerais \\ % Your institution for the title page
 			\item Criar um arquivo de configuração
 		\end{enumerate}
 	\end{block}
-	
+
 	\begin{exampleblock}{Comportamento PingPong}<2->
 	\begin{itemize}
 		\item Nesta simulação, dois nós vão trocar mensagens entre si.
@@ -200,16 +200,16 @@ Universidade Federal de Minas Gerais \\ % Your institution for the title page
 		\item Ao receber uma mensagem:
 		\begin{itemize}
 			\item O nó deve alterar sua cor conforme os valores RBG recebidos.
-			\item Gerar uma nova cor RGB e enviar por broadcast. 
-		\end{itemize}		 
+			\item Gerar uma nova cor RGB e enviar por broadcast.
+		\end{itemize}
 	\end{itemize}
-	\end{exampleblock}	
-	
+	\end{exampleblock}
+
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}\frametitle{Exercícios da aula passada}
-		
+
 	\begin{exampleblock}{Ping Pong}
 		\begin{figure}[t]
 			\includegraphics[width=1\linewidth]{img/pingpong.png}
@@ -234,6 +234,12 @@ Universidade Federal de Minas Gerais \\ % Your institution for the title page
 %------------------------------------------------
 \section{Outros simuladores} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 %------------------------------------------------
+
+\begin{frame}
+    \centering
+    Outros simuladores
+\end{frame}
+
 \subsection{The Network Simulator - NS2}
 
 \begin{frame}
@@ -254,10 +260,10 @@ Universidade Federal de Minas Gerais \\ % Your institution for the title page
 %------------------------------------------------
 \begin{frame}
 
-\begin{exampleblock}{Vídeo}
-	\centering
-	\includemovie[autoplay,controls]{1\linewidth}{.65\linewidth}{videos/tcp-udp.mp4}
-\end{exampleblock}
+%\begin{exampleblock}{Vídeo}
+%	\centering
+%	\includemovie[autoplay,controls]{1\linewidth}{.65\linewidth}{videos/tcp-udp.mp4}
+%\end{exampleblock}
 \end{frame}
 
 
@@ -266,10 +272,10 @@ Universidade Federal de Minas Gerais \\ % Your institution for the title page
 
 \begin{frame}
 
-\begin{exampleblock}{Vídeo}<2->
-	\centering
-	\includemovie[autoplay,controls]{1\linewidth}{.375\linewidth}{videos/omnet.mp4}
-\end{exampleblock}
+%\begin{exampleblock}{Vídeo}<2->
+%	\centering
+%	\includemovie[autoplay,controls]{1\linewidth}{.375\linewidth}{videos/omnet.mp4}
+%\end{exampleblock}
 
 \begin{block}{OMNeT++}
 
@@ -311,7 +317,7 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 
 \begin{frame}
 
-\begin{block}{Sumo -- Simulation of Urban MObility} 
+\begin{block}{Sumo -- Simulation of Urban MObility}
 
 	\begin{itemize}
 		\item Microscopic simulation - vehicles, pedestrians and public transport are modeled explicitly
@@ -329,17 +335,17 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 %------------------------------------------------
 \begin{frame}
 
-\begin{exampleblock}{Vídeo}
-	\centering
-	\includemovie[autoplay,controls]{1\linewidth}{.7\linewidth}{videos/sumo.mp4}
-\end{exampleblock}
+%\begin{exampleblock}{Vídeo}
+%	\centering
+%	\includemovie[autoplay,controls]{1\linewidth}{.7\linewidth}{videos/sumo.mp4}
+%\end{exampleblock}
 \end{frame}
 %------------------------------------------------
 \subsection{TOSSIM}
 
 \begin{frame}
 
-\begin{block}{TOSSIM -- TinyOS} 
+\begin{block}{TOSSIM -- TinyOS}
 
 	\begin{itemize}
 		\item TOSSIM is a TinyOS library
@@ -357,17 +363,17 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 
 \begin{frame}
 
-\begin{block}{Cooja -- Contiki} 
+\begin{block}{Cooja -- Contiki}
 
 	\begin{itemize}
-		\item Cooja is the Contiki network simulator. 
+		\item Cooja is the Contiki network simulator.
 		\item Cooja allows large and small networks
 		\item Motes can be emulated at the hardware level
 	\end{itemize}
 
 \end{block}
 
-\begin{block}{Cooja -- Contiki} 
+\begin{block}{Cooja -- Contiki}
 
 	\begin{figure}[t]
 		\includegraphics[width=.8\linewidth]{img/cooja.png}
@@ -400,7 +406,7 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 					\item O nó deve mandar uma mensagem unicast para o próximo salto até a EB, caso exista uma rota válida
 				\end{itemize}
 			\end{itemize}
-			
+
 		\end{enumerate}
 	\end{alertblock}
 \end{frame}
@@ -410,13 +416,13 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 	\frametitle{Tarefa 2}
 	\begin{alertblock}{Árvore para coleta de dados}
 		\begin{enumerate}
-			
+
 			\item A EB ao receber uma mensagem deve imprimir no Output informações sobre a mensagem coletada.
-				
-			\item Cada nó após ter um caminho válido para EB, deve ser permitido enviar dados periodicamente (10 rounds) para EB, isto deve ser ativado através de um \textbf{@NodePopupMethod}.  
+
+			\item Cada nó após ter um caminho válido para EB, deve ser permitido enviar dados periodicamente (10 rounds) para EB, isto deve ser ativado através de um \textbf{@NodePopupMethod}.
 
 			\item O payload da mensagem de dado pode ser uma amostra de temperatura ou alguma variável de ambiente geralmente analisada por RSSF.
-			
+
 			\item A mensagem não pode trafegar mais que um tempo de vida estabelecido (Ex: 30 saltos)
 		\end{enumerate}
 	\end{alertblock}
@@ -428,7 +434,7 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 	\centering
 	\includegraphics[width=.6\linewidth]{img/torvalds.png}
 	\flushright
-	--Linus	
+	--Linus
 \end{frame}
 %------------------------------------------------
 \begin{frame}
@@ -439,6 +445,6 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 	\begin{exampleblock}{Git é vida!}
 		git clone git@github.com:BrunoPereiraSantos/WirelessNetwork-Sinalgo.git
 	\end{exampleblock}
-	
+
 \end{frame}
-\end{document} 
+\end{document}
