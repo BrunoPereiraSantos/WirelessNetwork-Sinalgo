@@ -148,7 +148,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Sinalgo aula 2]{Sinalgo aula 2} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Simuladores aula 2]{Simuladores aula 2} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Bruno Pereira} % Your name
 \institute[UFMG] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -260,10 +260,11 @@ Universidade Federal de Minas Gerais \\ % Your institution for the title page
 %------------------------------------------------
 \begin{frame}
 
-%\begin{exampleblock}{Vídeo}
-%	\centering
-%	\includemovie[autoplay,controls]{1\linewidth}{.65\linewidth}{videos/tcp-udp.mp4}
-%\end{exampleblock}
+\begin{exampleblock}{Vídeo}
+	\centering
+    \includemovie[autoplay,controls]{1\linewidth}{.65\linewidth}{video/NetworkSimulation(UDPTCP).mp4}
+\end{exampleblock}
+
 \end{frame}
 
 
@@ -272,10 +273,10 @@ Universidade Federal de Minas Gerais \\ % Your institution for the title page
 
 \begin{frame}
 
-%\begin{exampleblock}{Vídeo}<2->
-%	\centering
-%	\includemovie[autoplay,controls]{1\linewidth}{.375\linewidth}{videos/omnet.mp4}
-%\end{exampleblock}
+\begin{exampleblock}{Vídeo}<2->
+	\centering
+	\includemovie[autoplay,controls]{1\linewidth}{.375\linewidth}{video/OMNeT++Demo.mp4}
+\end{exampleblock}
 
 \begin{block}{OMNeT++}
 
@@ -335,11 +336,37 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 %------------------------------------------------
 \begin{frame}
 
-%\begin{exampleblock}{Vídeo}
-%	\centering
-%	\includemovie[autoplay,controls]{1\linewidth}{.7\linewidth}{videos/sumo.mp4}
-%\end{exampleblock}
+\begin{exampleblock}{Vídeo}
+	\centering
+	\includemovie[autoplay,controls]{1\linewidth}{.7\linewidth}{video/sumo.mp4}
+\end{exampleblock}
+
 \end{frame}
+%------------------------------------------------
+\subsection{The ONE}
+
+\begin{frame}
+
+\begin{block}{The Opportunistic Network Environment simulator}
+
+	\begin{itemize}
+		\item Generating node movement using different movement models
+		\item Routing messages between nodes with various DTN routing algorithms and sender and receiver types
+		\item Visualizing both mobility and message passing in real time in its GUI
+		\item ONE can import mobility data from real-world traces or other mobility generators.
+	\end{itemize}
+
+\end{block}
+
+\begin{exampleblock}{Vídeo}<2->
+	\centering
+	\includemovie[autoplay,controls]{1\linewidth}{.375\linewidth}{video/DTN-ONE.mp4}
+\end{exampleblock}
+
+
+\end{frame}
+
+
 %------------------------------------------------
 \subsection{TOSSIM}
 
@@ -382,6 +409,28 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 \end{block}
 
 \end{frame}
+
+\begin{frame}
+
+\begin{block}{Cooja -- Contiki}
+
+	\begin{itemize}
+        \item \href{http://homepages.dcc.ufmg.br/~bruno.ps/iot-tp-sbrc-2016/}{\textcolor{red}{\textbf{Minicurso - SBCR 2016}}}
+        \item \href{https://www.youtube.com/watch?v=62dzCelBwIk}{\textcolor{red}{\textbf{Hands-on}}}
+    \end{itemize}
+
+\end{block}
+
+\begin{block}{Cooja -- Contiki}
+
+	\begin{figure}[t]
+		\includegraphics[width=.8\linewidth]{img/cooja.png}
+	\end{figure}
+
+\end{block}
+
+\end{frame}
+%
 %------------------------------------------------
 \section{Dúvidas sobre o projeto}
 
@@ -443,7 +492,7 @@ Castalia is a simulator based on the OMNeT++ for WSN.
 
 	\includegraphics[width=0.22\linewidth]{img/git.png}
 	\begin{exampleblock}{Git é vida!}
-		git clone git@github.com:BrunoPereiraSantos/WirelessNetwork-Sinalgo.git
+		git clone https://github.com/BrunoPereiraSantos/aula-simuladores-redes-sem-fio.git
 	\end{exampleblock}
 
 \end{frame}
