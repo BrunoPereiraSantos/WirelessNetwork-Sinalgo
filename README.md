@@ -16,6 +16,20 @@ Simuladores para redes sem fio
 ## Autor
 ### Bruno P. Santos
 
+## Compilando
+
+Para gerar os slides em pdf:
+
+```sh
+make
+```
+
+Para abrir os slides em pdf com o programa Okular.
+
+```sh
+make read
+```
+
 ## Bugs e comentários:
 
 ```sh
