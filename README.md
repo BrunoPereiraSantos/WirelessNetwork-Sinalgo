@@ -1,9 +1,23 @@
-# Wireless simulators
+Simuladores para redes sem fio
+=====================================
+## Descrição
 
-Code and slides presentation for Wireless Network class meeting at DCC/UFMG 2015 and 2016.
+> Aula sobre diversos simuladores para redes sem fio.
+> Esta aula foi ministrada na disciplina de Redes Sem Fio no Departamento de Ciêncida da Computação da Universidade Federal de Minas Gerais.
+> > Semestres:
+> > * 2016-2
+> > * 2015-2
+> > * 2014-2
 
-## Author
-Bruno Pereira dos Santos
+## Outras informações
 
-### Contact
-bruno.ps@dcc.ufmg.com
+##### http://homepages.dcc.ufmg.br/~bruno.ps/
+
+## Autor
+### Bruno P. Santos
+
+## Bugs e comentários:
+
+```sh
+contato: bruno.ps@dcc.ufmg.br
+```
