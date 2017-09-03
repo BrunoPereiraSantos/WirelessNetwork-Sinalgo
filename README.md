@@ -5,6 +5,7 @@ Simuladores para redes sem fio
 > Aula sobre diversos simuladores para redes sem fio.
 > Esta aula foi ministrada na disciplina de Redes Sem Fio no Departamento de Ciêncida da Computação da Universidade Federal de Minas Gerais.
 > > Semestres:
+> > * 2017-2
 > > * 2016-2
 > > * 2015-2
 > > * 2014-2
