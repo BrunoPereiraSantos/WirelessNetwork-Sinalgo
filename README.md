@@ -11,7 +11,7 @@ Simuladores para redes sem fio
 
 ## Outras informações
 
-##### http://homepages.dcc.ufmg.br/~bruno.ps/
+##### http://bps90.github.io
 
 ## Autor
 ### Bruno P. Santos
