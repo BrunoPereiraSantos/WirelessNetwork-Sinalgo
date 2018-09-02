@@ -791,7 +791,7 @@ próximo round.
 
 	\includegraphics[width=0.22\linewidth]{img/git.png}
 	\begin{exampleblock}{Git é vida!}
-		git clone git@github.com:BrunoPereiraSantos/aula-simuladores-redes-sem-fio.git
+		git clone git@github.com:bps90/aula-simuladores-redes-sem-fio.git
 	\end{exampleblock}
 	
 \end{frame}
@@ -849,7 +849,7 @@ próximo round.
 			
 			\item A EB ao receber uma mensagem deve imprimir no Output informações sobre a mensagem coletada.
 				
-			\item Cada nó após ter um caminho válido para EB, deve ser permitido enviar dados periodicamente (10 rounds) para EB, isto deve ser ativado através de um \textbf{@NodePopupMethod}.  
+			\item Deve ser permitido que um nó envie dados periodicamente (10 rounds) para EB, isto deve ser ativado através de um \textbf{@NodePopupMethod}. Observe que o nó deve ter um caminho válido para esta opção.  
 
 			\item O payload da mensagem de dado pode ser uma amostra de temperatura ou alguma variável de ambiente geralmente analisada por RSSF.
 			
@@ -866,6 +866,7 @@ próximo round.
 			\item Use Tools.java para:
 			\begin{itemize}
 				\item Escrever no output
+				\item Números aleatórios ***
 				\item Manipular erros
 				\item Informações sobre a simulação
 				\item Acessar conjunto de nós
