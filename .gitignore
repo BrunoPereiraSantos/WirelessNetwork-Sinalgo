@@ -7,3 +7,7 @@ presentation/build/*
 presentation2/build/*
 presentation2/videos/*
 
+
+minicurso-sbrc-2016/.ipynb_checkpoints/
+
+*.pptx#
